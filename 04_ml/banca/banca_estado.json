@@ -1,0 +1,12 @@
+{
+  "banca_inicial": 100.0,
+  "banca_atual": 126.64,
+  "banca_pico": 261.74,
+  "total_apostas": 41,
+  "total_ganhos": 19,
+  "total_perdas": 22,
+  "lucro_total": 26.64,
+  "roi_total": 7.59,
+  "data_inicio": "2026-04-07",
+  "ultima_atualizacao": "2026-04-13"
+}

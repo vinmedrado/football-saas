@@ -1,0 +1,43 @@
+[12:24:20] Carregando base_oficial com odds reais...
+[12:24:20] 42834 jogos com odds carregados
+[12:24:20] INÍCIO DO BACKTEST
+[12:24:20] ============================================================
+[12:24:31] Gols_H_HT                 | apostas:  6467 | winrate: 48.12% | ROI: +0.349 | odd_media: 3.01 | target%: 48.66%
+[12:24:41] Gols_A_HT                 | apostas:  5843 | winrate: 40.94% | ROI: +0.547 | odd_media: 4.09 | target%: 41.04%
+[12:24:54] Total_Gols_HT             | apostas:  6468 | winrate: 35.11% | ROI: -0.522 | odd_media: 1.37 | target%: 35.03%
+[12:25:10] Gols_H_FT                 | apostas:  6959 | winrate: 43.43% | ROI: -0.056 | odd_media: 2.50 | target%: 43.26%
+[12:25:22] Gols_A_FT                 | apostas:  6600 | winrate: 36.47% | ROI: +0.184 | odd_media: 3.71 | target%: 36.22%
+[12:25:34] Total_Gols_FT             | apostas:  6795 | winrate: 45.14% | ROI: -0.157 | odd_media: 1.90 | target%: 45.42%
+[12:25:45] Corners_H_FT              | apostas:  6618 | winrate: 44.06% | ROI: -0.373 | odd_media: 1.43 | target%: 44.52%
+[12:25:59] Corners_A_FT              | apostas:  6628 | winrate: 43.39% | ROI: -0.479 | odd_media: 1.20 | target%: 44.19%
+[12:26:11] Total_Corners_FT          | apostas:  6672 | winrate: 48.32% | ROI: -0.121 | odd_media: 1.82 | target%: 47.63%
+[12:26:24] Shots_H                   | apostas:  6038 | winrate: 47.63% | ROI: -0.286 | odd_media: 1.50 | target%: 45.67%
+[12:26:40] Shots_A                   | apostas:  6098 | winrate: 47.20% | ROI: -0.292 | odd_media: 1.50 | target%: 45.31%
+[12:26:53] ShotsOnTarget_H           | apostas:  5949 | winrate: 45.76% | ROI: -0.314 | odd_media: 1.50 | target%: 45.59%
+[12:27:05] ShotsOnTarget_A           | apostas:  5837 | winrate: 46.51% | ROI: -0.302 | odd_media: 1.50 | target%: 45.11%
+[12:27:21] ShotsOffTarget_H          | apostas:  8423 | winrate: 47.41% | ROI: -0.289 | odd_media: 1.50 | target%: 42.70%
+[12:27:35] ShotsOffTarget_A          | apostas:  8252 | winrate: 48.19% | ROI: -0.277 | odd_media: 1.50 | target%: 43.26%
+[12:27:47] Corners_H                 | apostas:  5459 | winrate: 42.99% | ROI: -0.467 | odd_media: 1.21 | target%: 42.24%
+[12:28:02] Corners_A                 | apostas:  5534 | winrate: 41.18% | ROI: -0.496 | odd_media: 1.21 | target%: 39.22%
+[12:28:02] ============================================================
+[12:28:02] BACKTEST FINALIZADO
+[12:28:02] 
+RANKING POR ROI:
+           event market  apostas    lucro  winrate       roi  odd_media  target_pct odd_col
+       Gols_A_HT G_A_HT     5843  3196.47 0.409379  0.547060      4.085       0.410  O_A_HT
+       Gols_H_HT G_H_HT     6467  2260.02 0.481212  0.349470      3.009       0.487  O_H_HT
+       Gols_A_FT G_A_FT     6600  1213.16 0.364697  0.183812      3.709       0.362  O_A_FT
+       Gols_H_FT G_H_FT     6959  -388.47 0.434258 -0.055823      2.498       0.433  O_H_FT
+Total_Corners_FT  TC_FT     6672  -805.23 0.483213 -0.120688      1.818       0.476 O_C_O95
+   Total_Gols_FT  TG_FT     6795 -1065.11 0.451361 -0.156749      1.898       0.454 O_25_FT
+ShotsOffTarget_A  SOF_A     8252 -2286.50 0.481944 -0.277084      1.500       0.433 default
+         Shots_H   SH_H     6038 -1724.00 0.476317 -0.285525      1.500       0.457 default
+ShotsOffTarget_H  SOF_H     8423 -2433.50 0.474059 -0.288911      1.500       0.427 default
+         Shots_A   SH_A     6098 -1781.00 0.471958 -0.292063      1.500       0.453 default
+ ShotsOnTarget_A  SOT_A     5837 -1764.50 0.465136 -0.302296      1.500       0.451 default
+ ShotsOnTarget_H  SOT_H     5949 -1866.00 0.457556 -0.313666      1.500       0.456 default
+    Corners_H_FT C_H_FT     6618 -2468.20 0.440617 -0.372953      1.432       0.445 O_C_O85
+       Corners_H  O_C_H     5459 -2549.45 0.429932 -0.467018      1.210       0.422 O_C_O75
+    Corners_A_FT C_A_FT     6628 -3176.99 0.433917 -0.479329      1.196       0.442 O_C_O75
+       Corners_A  O_C_A     5534 -2743.97 0.411818 -0.495838      1.207       0.392 O_C_O75
+   Total_Gols_HT  TG_HT     6468 -3378.86 0.351113 -0.522396      1.371       0.350 O_05_HT

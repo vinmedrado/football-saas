@@ -37,25 +37,15 @@ Construir um sistema completo de engenharia de dados, backtest e previsão para 
 
 ---
 
-## ⚙️ Engenharia de Dados (Flashscore)
+## 🔗 Integração com Data Engine
 
-O projeto utiliza engenharia reversa de endpoints internos do Flashscore para coleta de dados históricos e odds.
+O sistema depende do pipeline externo:
 
-Funcionalidades:
+flashscore-data-engine
 
-* Extração automatizada de ligas e eventos
-* Coleta de feeds de partidas (estatísticas detalhadas)
-* Captura de odds por mercado e bookmaker
-* Pipeline incremental com controle de estado
-* Normalização e consolidação em base única
+Fluxo:
 
-Pipeline estruturado em etapas:
-
-* 01 → Coleta de eventos por liga
-* 02 → Coleta de feeds das partidas
-* 03 → Coleta de odds
-* 04 → Parsing e normalização
-* 05 → Construção da base unificada
+Data Engine → JSON estruturado → football_saas → ML → Previsões
 
 ---
 
